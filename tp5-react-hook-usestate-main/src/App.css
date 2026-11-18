@@ -1,0 +1,40 @@
+.contenedor {
+  max-width: 420px;
+  margin: 60px auto;
+  padding: 24px 28px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.contenedor h1 {
+  font-size: 1.4rem;
+  margin-top: 0;
+}
+
+.contador .valor {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 16px 0;
+}
+
+.contador .botones {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.contador button {
+  padding: 8px 20px;
+  border: none;
+  border-radius: 6px;
+  background: #2563eb;
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.contador button:hover {
+  background: #1d4ed8;
+}
